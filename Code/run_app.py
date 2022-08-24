@@ -26,3 +26,6 @@ instances = ec2_resource.instances.filter(
     Filters=[{'Name': 'tag:k8s.io/role/master', 'Values': [1]}, {'Name': 'instance-state-code', 'Values': [16]}])
 for instance in instances:
     print(instance.id, instance.instance_type)
+
+
+print("===============!!!FIINSHED!!!===============")
