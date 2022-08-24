@@ -1,3 +1,0 @@
-def a = 'Run${env.MAIL}'
-echo $a
-echo "asdfasF"
